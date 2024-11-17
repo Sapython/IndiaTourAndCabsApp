@@ -1,0 +1,59 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+@import 'swiper/scss';
+@import '@ionic/angular/css/ionic-swiper';
+@import 'swiper/scss/autoplay';
+@import 'swiper/scss/navigation';
+@import 'swiper/scss/pagination';
+// @import url('./assets/scss/neumorphism.css.map');
+
+
+
+.header-md::after{
+    background: transparent;
+}
+.shadow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.138) 0%, rgba(0, 0, 0, 0.54) 100%);
+    
+    z-index: 1;
+  }
+.box{
+    background: #EAECF0;
+/* n-stroke */
+
+border: 1px solid rgba(255, 255, 255, 0.4);
+/* n-5-5-10-out */
+
+box-shadow: -5px -5px 8px #F2F4F8, 5px 5px 7px rgba(174, 174, 192, 0.5);
+border-radius: 10px;
+}

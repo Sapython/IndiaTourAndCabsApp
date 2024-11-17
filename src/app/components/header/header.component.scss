@@ -1,0 +1,33 @@
+ion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  width: 100%;
+  --box-sizing: border-box;
+  font-size: 1.2rem;
+  font-weight: 600;
+  ion-img{
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+  
+  ion-card {
+    margin: 0;
+    padding: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.8rem;
+    border: 3px solid #e4e7f4;
+    --background: #f0f0f3;
+    box-shadow: -1px -1px 3px #ffffff, 1.5px 1.5px 3px rgba(174, 174, 192, 0.4);
+    --border-radius: 12px;
+    ion-icon {
+      font-size: 1.3rem;
+      color:#C4C9DC;
+    }
+  }
+}
